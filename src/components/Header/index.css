@@ -1,0 +1,81 @@
+.small-container {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #272727;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.website-logo {
+  height: 20px;
+  width: 70px;
+}
+.home-jobs-logout {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.option-item {
+  list-style-type: none;
+}
+.option-img {
+  color: #ffffff;
+  height: 20px;
+  width: 20px;
+  margin-left: 20px;
+}
+.logout-button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+@media screen and (min-width: 768px) {
+  .small-container {
+      display: none;
+  }
+}
+.large-container {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #272727;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.website-logo-lg {
+  height: 25px;
+  width: 90px;
+}
+.options-container {
+    display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.options-item-lg {
+    list-style-type: none;
+}
+.option-item-lg {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 900;
+  font-family: "Roboto";
+  margin-right: 20px;
+}
+.logout-button-lg {
+     background-color: #6366f1;
+    width: 70px;
+    height: 30px;
+    border-style: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 14px;
+}
+@media screen and (max-width: 768px) {
+    .large-container {
+      display: none
+    }
+}

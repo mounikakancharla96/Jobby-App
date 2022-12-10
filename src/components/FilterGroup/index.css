@@ -1,0 +1,48 @@
+.employment-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.employment-types-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+
+.employment-list-container {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.employment-name {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.checkbox-input {
+  height: 15px;
+  width: 15px;
+}
+
+.employee-item {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  padding-bottom: 20px;
+}
+
+.employment-label {
+  color: #ffffff;
+  margin-left: 10px;
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+.hr {
+  color: #ffffff;
+  width: 100%;
+}
